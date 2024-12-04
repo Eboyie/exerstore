@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
+
+a.active {
+  color: #ee63cb;
+  font-weight: 700;
+}
+
+.navHeight {
+  height: calc(100vh - 56px);
+}
